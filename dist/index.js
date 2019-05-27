@@ -1,0 +1,4 @@
+// Import stylesheets
+import { AppMain } from './app-main.js';
+customElements.define('app-main', AppMain);
+//# sourceMappingURL=index.js.map

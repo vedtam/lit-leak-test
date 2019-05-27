@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../index.ts"],"names":[],"mappings":"AAAA,qBAAqB;AACrB,OAAO,EAAE,OAAO,EAAE,MAAM,eAAe,CAAC;AACxC,cAAc,CAAC,MAAM,CAAC,UAAU,EAAE,OAAO,CAAC,CAAC","sourcesContent":["// Import stylesheets\nimport { AppMain } from './app-main.js';\ncustomElements.define('app-main', AppMain);"]}
