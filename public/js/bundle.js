@@ -2511,8 +2511,8 @@
         <div>Steps to reproduce the leak</div>
         <ul>
           <li>open DevTools and click the <b>Memory</b> tab</li>
-          <li>note curr. memory of the row <i>lit-element-leak-demo.stackblitz.io</i> usually is ~10 MB (when starting)</li>
-          <li>keep refreshing (5-10 times) the preview iframe and watch the memory increase</li>
+          <li>note current memory usage</li>
+          <li>keep refreshing (5-10 times), watch the memory increase</li>
           <li>amount of memory won't decrase, clearing manually (via bin icon, top-left) or navigating to another tab, than back won't work either.</li>
           <li>to clear the memory open the demo in a new tab (v8 will cache the transpiled script)</li>
         </ul>
@@ -2529,7 +2529,6 @@
     __decorate$1([
         property({ type: Object })
     ], AppMain.prototype, "myTextInput", void 0);
-    //# sourceMappingURL=app-main.js.map
 
     // Import stylesheets
     customElements.define('app-main', AppMain);
