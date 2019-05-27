@@ -2529,6 +2529,7 @@
     __decorate$1([
         property({ type: Object })
     ], AppMain.prototype, "myTextInput", void 0);
+    //# sourceMappingURL=app-main.js.map
 
     // Import stylesheets
     customElements.define('app-main', AppMain);
